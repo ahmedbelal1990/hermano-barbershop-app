@@ -1,0 +1,21 @@
+name: hermano_barbershop
+description: Booking app for Hermano Barbershop
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.20.0
+  cloud_firestore: ^5.8.0
+  firebase_auth: ^4.9.0
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
